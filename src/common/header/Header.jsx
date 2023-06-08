@@ -3,13 +3,12 @@ import "./Header.css"
 import Head from "./Head"
 import Search from "./Search"
 import Navbar from "./Navbar"
+import HeaderClient from "../navbar/HeaderClient"
 
 const Header = ({ CartItem }) => {
   return (
     <>
-      <Head />
-      <Search CartItem={CartItem} />
-      <Navbar />
+      <HeaderClient />
     </>
   )
 }
