@@ -6,6 +6,8 @@ import Pages from "./pages/Pages"
 import Data from "./components/Data"
 import Footer from "./common/footer/Footer"
 import Sdata from "./components/shops/Sdata"
+//post
+import { inputPost, cates } from "./formSource";
 //new
 import { AuthContextProvider } from "./context/AuthContext"
 import SignIn from "./components/MainPage/SignIn"
@@ -24,6 +26,7 @@ function App() {
           <Routes>
             <Route path='/' exact element={<Pages productItems={productItems} shopItems={shopItems} postItems={postItems} />} />
             <Route path='/signin' element={<SignIn />} />
+            {/* <Route path='/post' element={<ProtectedRoutes><Post inputs={inputPost} title="Post New Product" cates={cates} /></ProtectedRoutes>} /> */}
           </Routes>
           <Footer />
         </Router>

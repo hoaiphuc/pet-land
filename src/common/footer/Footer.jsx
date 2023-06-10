@@ -45,7 +45,7 @@ const Footer = () => {
             <h2>Contact Us</h2>
             <ul>
               <li>FPT campus, HCM </li>
-              <li>Email: phucnhse150986@fpt.edu.vn</li>
+              <li>Email: Petland@gmail.com</li>
               <li>Phone: +84 692 8890</li>
             </ul>
           </div>
